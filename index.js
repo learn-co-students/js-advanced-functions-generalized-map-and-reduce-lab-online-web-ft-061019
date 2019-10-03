@@ -2,7 +2,7 @@
 function map(someArray, callback){
     let newArray = []
     for (let i = 0; i < someArray.length; i++){
-        let element = array[i]
+        let element = someArray[i]
         newArray.push(callback(element))
     }
     return newArray
